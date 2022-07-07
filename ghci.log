@@ -1,0 +1,64 @@
+GHCi, version 8.10.7: https://www.haskell.org/ghc/  :? for help
+Loaded GHCi configuration from /home/nobsun/devel/LSystem/.ghci
+>>> :e app/hilbert.hs
+editor not set, use :set editor
+>>> :load app/hilbert.hs
+[1 of 1] Compiling Main             ( app/hilbert.hs, interpreted )
+Ok, one module loaded.
+>>> main
+GHCi, version 8.10.7: https://www.haskell.org/ghc/  :? for help
+Loaded GHCi configuration from /home/nobsun/devel/LSystem/.ghci
+>>> :e app/hilbert.hs
+editor not set, use :set editor
+>>> :load app/hilbert.hs
+[1 of 1] Compiling Main             ( app/hilbert.hs, interpreted )
+Ok, one module loaded.
+>>> main
+GHCi, version 8.10.7: https://www.haskell.org/ghc/  :? for help
+Loaded GHCi configuration from /home/nobsun/devel/LSystem/.ghci
+>>> :e app/hilbert.hs
+editor not set, use :set editor
+>>> :l app/hilbert.hs
+[1 of 1] Compiling Main             ( app/hilbert.hs, interpreted )
+Ok, one module loaded.
+>>> main
+Interrupted.
+>>> Leaving GHCi.
+GHCi, version 8.10.7: https://www.haskell.org/ghc/  :? for help
+Loaded GHCi configuration from /home/nobsun/devel/LSystem/.ghci
+>>> :e app/hilbert.hs
+editor not set, use :set editor
+>>> :l app/hilbert.hs
+[1 of 1] Compiling Main             ( app/hilbert.hs, interpreted )
+Ok, one module loaded.
+>>> main
+GHCi, version 8.10.7: https://www.haskell.org/ghc/  :? for help
+Loaded GHCi configuration from /home/nobsun/devel/LSystem/.ghci
+>>> :e app/hilbert.hs
+editor not set, use :set editor
+>>> :l app/hilbert.hs
+[1 of 1] Compiling Main             ( app/hilbert.hs, interpreted )
+Ok, one module loaded.
+>>> main
+GHCi, version 8.10.7: https://www.haskell.org/ghc/  :? for help
+Loaded GHCi configuration from /home/nobsun/devel/LSystem/.ghci
+>>> :e app/sierpinski.hs
+editor not set, use :set editor
+>>> :l app/sierpinski.hs 
+[1 of 1] Compiling Main             ( app/sierpinski.hs, interpreted )
+Ok, one module loaded.
+>>> main
+<interactive>: Prelude.head: empty list
+<interactive>: interrupted
+<interactive>: warning: too many hs_exit()s
+GHCi, version 8.10.7: https://www.haskell.org/ghc/  :? for help
+Loaded GHCi configuration from /home/nobsun/devel/LSystem/.ghci
+>>> :e app/sierpinski.hs
+editor not set, use :set editor
+>>> :l app/sierpinski.hs 
+[1 of 1] Compiling Main             ( app/sierpinski.hs, interpreted )
+Ok, one module loaded.
+>>> :main 0
+<interactive>: Negative exponent
+<interactive>: interrupted
+<interactive>: warning: too many hs_exit()s

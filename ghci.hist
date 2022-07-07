@@ -1,0 +1,14 @@
+:main 0
+:l app/sierpinski.hs 
+main
+:l app/sierpinski.hs 
+main
+:l app/hilbert.hs
+main
+:l app/hilbert.hs
+main
+:l app/hilbert.hs
+main
+:load app/hilbert.hs
+main
+:load app/hilbert.hs

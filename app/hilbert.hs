@@ -39,7 +39,7 @@ interp _ M = right 90
 hilbert :: Order -> Picture
 hilbert n = translate (negate (2.0^(n-1))) (negate (2.0^(n-1)))
           $ mconcat
-          $ evalState (sequence $ map (interp 1) (x n []))
+          $ evalState (sequence $ map (interp 2) (x n []))
           $ TurtleState (0.5, 0.5) 0 True black
           
 hilbert' :: Order -> [Picture]
@@ -57,8 +57,8 @@ next :: ViewPort -> Float -> [Picture] -> [Picture]
 next _ _ = tail
 
 main :: IO ()
--- main = animate window white curve
-main = simulate window white 120 ini drawing next
+main = animate window white curve
+-- main = simulate window white 120 ini drawing next
 
 ini :: [Picture]
 ini = cycle $ hilbert' 6
@@ -70,5 +70,5 @@ curve x = let
     } in scale fact fact (hilbert t)
 
 window :: Display
-window = InWindow "Hilbert curve" (1200, 1200) (100, 100)
+window = InWindow "Hilbert curve" (2000, 2000) (100, 100)
 

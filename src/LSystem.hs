@@ -32,10 +32,11 @@ instance LSystem Hilbert where
   interp F = forward 1
   interp M = right 90
   interp P = left 90
-
+{-
 drawLSystem :: LSystem a => a -> Float -> Int -> IO ()
 drawLSystem _ s n = scanl1 (<>) 
                   $ filter (/= Blank)
                   $ evalState (mapM interp (axiom n))
-                  $ Turtel (0.5, 0.5) 0 black
- 
+                  $ Turtle (0.5, 0.5) 0 black
+-}
+
