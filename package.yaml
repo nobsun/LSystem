@@ -44,18 +44,6 @@ executables:
     # - -with-rtsopts=-N
     dependencies:
     - LSystem
-
-  hilbert:
-    main:		 hilbert.hs
-    source-dirs:         app
-    dependencies:
-    - LSystem
-    
-  sierpinski:
-    main:		 sierpinski.hs
-    source-dirs:         app
-    dependencies:
-    - LSystem
     
 tests:
   LSystem-test:
